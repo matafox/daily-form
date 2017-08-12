@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Form</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<section class="pm-form">
+    <header class="pm-form__header cf">
+        <div class="pm-form__header-title">
+            <p class="pm-form__header-name">Create your free account</p>
+            <p class="pm-form__header-subname">Come and join our cool and amazing community, fill in your details
+                to get started. Already have an account? Log in.</p>
+        </div>
+    </header>
+    <form action="/" method="post">
+        <fieldset class="pm-form__login">
+            <label>
+                <input class="pm-form__firstname" type="text" name="firstname" placeholder="First name" required>
+            </label>
+            <label>
+                <input class="pm-form__lastname" type="text" name="lastname" placeholder="Last name" required>
+            </label>
+        </fieldset>
+        <fieldset class="pm-form__another">
+            <label>
+                <input class="pm-form__email" type="email" name="email" placeholder="Email address" required>
+            </label>
+            <label>
+                <input class="pm-form__password" type="password" name="password" placeholder="Password" required>
+            </label>
+        </fieldset>
+        <button type="submit" class="pm-form__button">Sign up for free</button>
+        <div class="pm-text__footer">
+            <p>
+                By clicking on “Sign up for free”, you agree to the <a href="#">Terms of Service</a> and
+                the  <a href="#">Privacy Policy</a>
+            </p>
+        </div>
+    </form>
+</section>
+</body>
+</html>
